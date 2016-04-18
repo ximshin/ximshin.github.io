@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+span {
+    color: #fff;
+    font-weight: bold;
+    padding: 2px 8px 3px;
+    border-radius: 5px;
+}
+
+label{
+    text-decoration: underline;
+}
+
+label[for="red"]{
+    color: red;
+}
+
+input:checked .red {
+    display: none;
+}
+
+label[for="green"]{
+    color: green;
+}
+
+label[for="blue"]{
+    color: blue;
+}
+
+.red {
+    background: red;
+}
+
+.green{
+    background: green;
+}
+
+.blue{
+    background: blue;
+}

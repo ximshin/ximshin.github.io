@@ -2,6 +2,6 @@ tr:nth-child(even) {
     background: #ddebf7;
 }
 
-td:nth-child(3) {
+td:nth-child(2n+3) {
     background: #f2f2de;
 }
