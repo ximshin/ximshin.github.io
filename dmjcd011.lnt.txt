@@ -1,0 +1,18 @@
+﻿add Lesson3
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   MarkUp/Lesson3/task.html
+#	new file:   MarkUp/Lesson3/task2.html
+#	new file:   MarkUp/Lesson3/task4.html
+#	new file:   MarkUp/Lesson3/task5.html
+#	new file:   MarkUp/Lesson3/task6.html
+#
+# Untracked files:
+#	MarkUp/.idea/vcs.xml
+#	MarkUp/Lesson1/.idea/
+#
+
