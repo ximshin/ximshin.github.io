@@ -1,0 +1,56 @@
+p:first-letter {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+em {
+    background: green;
+    font-weight: bold;
+    color: #fff;
+}
+
+h2 {
+    font-size: 30px;
+    color: orange;
+}
+
+.plants-list {
+    font-weight: bold;
+}
+
+.fruits-list {
+    color: gray;
+    font-weight: normal;
+}
+
+.vegetables-list {
+    color: red;
+    font-weight: normal;
+}
+
+#warehouse h2 {
+    color: blue;
+}
+
+#warehouse .fruits-list {
+    color: green;
+}
+
+table {
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody td {
+    background: green;
+    color: #fff;
+    font-weight: normal;
+}
+
+tbody tr td:first-child {
+    color: orange;
+    text-align: left;
+    background: #fff;
+}
+
