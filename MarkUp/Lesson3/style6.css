@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     font-size: 15px;
@@ -39,4 +40,29 @@ label[for="blue"]{
 
 .blue{
     background: blue;
+}
+
+input#green:checked ~ label[for="green"] {
+    color: #8fcc8f;
+}
+
+input#green:checked ~ .green {
+    display: none;
+}
+
+
+input#red:checked ~ label[for="red"] {
+    color: #ff9999;
+}
+
+input#red:checked ~ .red {
+    display: none;
+}
+
+input#blue:checked ~ label[for="blue"] {
+    color: #9999ff;
+}
+
+input#blue:checked ~ .blue {
+    display:none;
 }
