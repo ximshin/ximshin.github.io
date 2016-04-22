@@ -1,0 +1,39 @@
+body {
+    font-family:'Economica', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding 0;
+}
+
+.menu-wrapper {
+
+}
+
+div {
+    background-color: #a64dff;
+}
+
+ul {
+    width: 900px;
+    display: block;
+    margin: 0 auto;
+}
+
+li {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.6em;
+    font-weight: 700;
+    line-height: 1.8;
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+
+li:hover {
+    background: #eee;
+    color: #a6a6a6;
+}
+
+li:last-child {
+    float: right;
+}
