@@ -2,14 +2,29 @@ body {
     font-family: sans-serif;
 }
 
-.first, .prev {
+.first, .prev, .next, .last {
     text-transform: uppercase;
     border: none;
+    background: none;
+    color: #9f3bcf;
+}
+
+.first:hover, .prev:hover, .next:hover, .last:hover, li:nth-child(5):hover {
+    background: none;
+    color: #7c12bc;
 }
 
 .prev:before, .first:before {
     content: '«';
     margin-right: 4px;
+    position: relative;
+    font-size: 11px;
+    top: -2px;
+}
+
+.next:after, .last:after {
+    content: '»';
+    margin-left: 4px;
     position: relative;
     font-size: 11px;
     top: -2px;
@@ -22,6 +37,8 @@ li {
     padding: 5px 9px;
     font-size: 12px;
     margin-right: 4px;
+    color:#9f3bcf;
+    cursor: pointer;
 }
 li:nth-child(5) {
     border:none;
@@ -29,4 +46,10 @@ li:nth-child(5) {
     position: relative;
     bottom: -6px;
     font-weight: bold;
+}
+
+li:hover {
+    background: #9f3bcf;
+    border-color: #7c12bc;
+    color: #fff;
 }
