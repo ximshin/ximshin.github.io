@@ -1,0 +1,203 @@
+@import "../reset.css";
+.container {
+    width: 900px;
+    margin: 100px auto;
+}
+
+.cards-wrapper {
+    margin: 0 auto;
+}
+
+.cards-header {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'sans-serif';
+    font-weight: bold;
+    color: #41525c;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+}
+
+.card-box {
+    float: left;
+    margin: 0 auto;
+    font-family:'Trebuchet MS', 'sans-serif';
+    width: 296px;
+    box-sizing: border-box;
+    border: 1px solid #e8eaec;
+    border-radius: 6px;
+}
+
+.card-header {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: #666;
+    text-align: center;
+    line-height: 24px;
+    padding: 24px 0 25px;
+    border-radius: 6px 6px 0 0;
+}
+
+.card-header-best {
+    background: #ee8129;
+}
+
+.card-header-standart {
+    background: #37c2d3;
+}
+
+.card-header-ultimate {
+    background: #1cb79a;
+}
+
+.button-enroll {
+    background: #666;
+    width: 258px;
+    padding: 12px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 18px auto 30px;
+    letter-spacing: 1px;
+    box-shadow: 0 -3px 0 #ccc inset;
+}
+
+.button-enroll-standart {
+    background: #3371a6;
+    box-shadow: 0 -3px 0 #16436a inset;
+}
+
+.button-enroll-best {
+    background: #ee8129;
+    box-shadow: 0 -3px 0 #b3560b inset;
+}
+
+.button-enroll-standart {
+    background: #3371a6;
+    box-shadow: 0 -3px 0 #16436a inset;
+}
+
+.button-enroll-standart:hover {
+    transition: all 0.1s ease-out;
+    box-shadow: none;
+    box-shadow: 0 1px 3px #16436a inset;
+}
+
+.button-enroll-best:hover {
+    transition: all 0.1s ease-out;
+    box-shadow: none;
+    box-shadow: 0 1px 3px #b3560b inset;
+}
+
+.header {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #3f4042;
+    margin: 23px 0 31px;
+    text-align: center;
+    line-height: 18px;
+}
+
+.price {
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    color: #35495a;
+    letter-spacing: -2px;
+    line-height: 48px;
+    margin-bottom: 23px;
+}
+
+.price:before {
+    content: '$';
+    font-size: 20px;
+    position: relative;
+    right: 3px;
+    top: -40px;
+}
+
+.price:after {
+    content: 'Monthly';
+    font-size: 20px;
+    position: relative;
+    right: 3px;
+    top: 9px;
+    letter-spacing: normal;
+    font-weight: normal;
+}
+
+.services {
+    padding:0 15px;
+}
+
+.services li {
+    font-size: 15px;
+    color: #888c94;
+    background: #edf5fd;
+    margin-bottom: 1px;
+    padding: 8px 0 10px;
+}
+
+.services li:nth-child(even){
+    background: #f5f5f6;
+}
+
+.services li:before {
+    content: url(../img/tick.png);
+    margin: 0 17px 0 33px;
+    position: relative;
+    top: 3px;
+}
+
+.button {
+    background: #ee8129;
+    width: 258px;
+    padding: 12px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 18px auto 30px;
+    letter-spacing: 1px;
+    box-shadow: 0 -3px 0 #b3560b inset;
+}
+/*
+.button:hover {
+    transition: all 0.1s ease-out;
+    box-shadow: none;
+    box-shadow: 0 1px 3px #b3560b inset;
+}
+
+.card {
+    margin: 120px auto;
+    font-family:'Trebuchet MS', 'sans-serif';
+    width: 296px;
+    box-sizing: border-box;
+    border: 4px solid #ee8129;
+    border-radius: 6px;
+    box-shadow: 0 0 13px -3px #0874b2;
+}
+
+.card-header {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: #ee8129;
+    text-align: center;
+    line-height: 24px;
+    padding: 24px 0 25px;
+}*/

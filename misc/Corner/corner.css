@@ -1,0 +1,44 @@
+@import "../reset.css";
+
+.block-corner {
+    background: #ccc;
+    position: relative;
+    margin: 100px auto;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 120px;
+    width: 400px;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.block-corner:before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 40px;
+    border: 10px solid transparent;
+    border-right: 10px solid #ccc;
+}
+.tag-flag {
+    display: inline-block;
+    background: #0090d9;
+    position: relative;
+    box-sizing: border-box;
+    min-width: 10px;
+    height: 23px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    margin: 50px auto;
+}
+
+.tag-flag:after {
+    content: "";
+    position: absolute;
+    right: -11px;
+    top: 0;
+    border: 11px solid transparent;
+    border-top: 11px solid #0090d9;
+    border-bottom: 12px solid #0090d9;
+}
