@@ -43,7 +43,28 @@
 
 .card-header-best {
     background: #ee8129;
+    /*position: relative;
+    top: -10px;*/
 }
+
+/*.card2:before {
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: -14px;
+    background: #ee8129;
+    border: 10px solid #ee8129;
+    border-radius: 6px 6px 0 0;
+    width: 276px;
+}
+
+.card2 {
+    position: relative;
+    border: 4px solid #ee8129;
+    border-radius: 6px;
+    box-shadow: 0 0 13px -3px #0874b2;
+}*/
+
 
 .card-header-standart {
     background: #37c2d3;

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="dd7eea87-edcf-49c0-b1b2-288aa58cacb4" name="centurion" url="http://centurion.horoshop.com.ua">
+      <webServer id="dd7eea87-edcf-49c0-b1b2-288aa58cacb4" name="centurion" url="">
         <fileTransfer host="centurion.horoshop.com.ua" port="21" password="dfebdff9dfdfdfd3dfc3dffedfd2dfd0dfcbdfd9df98" username="horoshop">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
