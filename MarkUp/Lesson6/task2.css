@@ -1,1 +1,41 @@
 @import "../reset.css";
+.testimonials {
+    width:  100%;
+    margin: 0 auto;
+    background: #000 url("../img/testimonials-bg.jpg");
+}
+
+.testimonials__wrap {
+    border: 1px solid transparent;
+    width: 1024px;
+    min-width: 490px;
+    margin: 0 auto;
+    height: 600px;
+    background: rgba(255, 255, 255, .1);
+}
+
+.testimonials__header {
+    color: #3170a8;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'sans-serif';
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.testimonials__header--first-word {
+    color: #ee8129;
+}
+
+.testimonial {
+    display: inline-block;
+    width: 490px;
+    background: #ccc;
+}
+
+.testimonial__photo {
+    width: 99px;
+    height: 98px;
+    overflow: hidden;
+    background: #fff;
+}
