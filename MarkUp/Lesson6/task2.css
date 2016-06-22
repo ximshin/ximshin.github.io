@@ -30,7 +30,7 @@
 .testimonial {
     display: inline-block;
     width: 490px;
-    background: #ccc;
+    background: transparent;
     margin-right: 40px;
     margin-bottom: 50px;
 }
@@ -40,8 +40,31 @@
 }
 
 .testimonial__photo {
+    display: inline-block;
     width: 99px;
     height: 98px;
     overflow: hidden;
     background: #fff;
+}
+
+.testimonial__comment {
+    display: inline-block;
+    position: relative;
+    width: 360px;
+    background: #f7f7f7;
+    vertical-align: top;
+    min-height: 98px;
+    margin-left: 22px;
+    box-sizing: border-box;
+    border: 1px solid #d9d9d9;
+}
+
+.testimonial__comment:before {
+    content: '';
+    position: absolute;
+    top: 33px;
+    left: -30px;
+    border: 15px solid transparent;
+    border-right: 15px solid #f7f7f7;
+
 }
