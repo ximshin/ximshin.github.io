@@ -1,2 +1,47 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
 .paginator {
+    max-width: 600px;
+    font: 700 12px 'Open Sans', Arial, sans-serif;
+    /*
+    font-weight: 700;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 12px;
+    */
+    text-transform: uppercase;
+}
+
+.paginator__item {
+    color: #2ea8e5;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 0 3px;
+}
+
+.paginator__item:hover {
+    color: #fff;
+    background: #2ea8e5;
+    border: 1px solid #2ea8e5;
+}
+
+.paginator__item_first, .paginator__item_prev{
+    border:1px solid transparent;
+    margin-right: -3px;
+}
+
+.paginator__item_next, .paginator__item_last {
+    border:1px solid transparent;
+    margin-left: -3px;
+}
+
+.paginator__item_first:before, .paginator__item_prev:before {
+    content: "«";
+    margin-right: 3px;
+}
+
+.paginator__item_next:after, .paginator__item_last:after {
+    content: "»";
+    margin-left: 3px;
 }
