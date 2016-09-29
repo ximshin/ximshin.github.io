@@ -1,0 +1,121 @@
+@import "../../reset.css";
+@import "cards.css";
+@import "testimonials.css";
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700&subset=cyrillic';
+
+.container {
+}
+
+.container-wrap {
+    max-width: 1024px;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    overflow: hidden;
+    height: 116px;
+    font: 600 14px/2em 'Open Sans', sans-serif;
+}
+
+.header-logo {
+    float: left;
+    line-height: 116px;
+    height: 116px;
+}
+
+.header-logo p {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #3070a8;
+}
+
+.header-logo span {
+    color: #ee8129;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.header__menu {
+    float: right;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+    padding-top: 57px;
+}
+
+.header__menu-item {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.header__menu-item-a {
+    display: block;
+    color: #666;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.header__menu-item:last-child {
+    margin-right: 0;
+}
+
+.header__menu-item-a:hover {
+    color: #ee8129;
+    padding-bottom: 27px;
+    border-bottom: 4px solid;
+    transition: border .1s ease-in-out .2s, color .2s ease-in-out .2s;
+}
+
+.header__menu-item-a_current {
+    color: #3070a8;
+    padding-bottom: 27px;
+    border-bottom: 4px solid;
+}
+.main-banner-wrapper {
+    background: #173b4d url(../img/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    height: 586px;
+
+}
+.main-banner {
+    font: 400 20px/1.2 'Open Sans', sans-serif;
+    text-align: center;
+    color: #fff;
+    padding-top: 144px;
+    padding-bottom: 20px;
+}
+
+.main-banner__subtitle {
+    font-size: 36px;
+    margin-bottom: 3px;
+}
+
+.main-banner__title {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.main-banner__desc {
+    font: 400 italic 20px/30px sans-serif;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .3);
+}
+
+
+.banner-button {
+    font: 16px "Open Sans";
+    text-transform: uppercase;
+    background: transparent;
+    color: #fff;
+    border-radius: 2px;
+    border: 1px solid rgba(255, 255, 255, .5);
+    padding: 16px 60px;
+    margin-top: 40px;
+}
+
+.banner-button:hover {
+    background: #fff;
+    color: #3070a8;
+    transition: all .2s ease-in-out .2s;
+}

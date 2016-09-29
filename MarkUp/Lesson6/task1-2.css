@@ -7,34 +7,19 @@ input, textarea {
 .card {
     font: 14px/1.4 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid #e8eaec;
     border-radius: 4px;
     background: #fff;
     overflow: hidden;
     margin: 0 auto;
 }
-
-/*.card_best-value {
-    border-radius: 4px;
-    outline: 4px solid #ee8129;
-}*/
-
 .card__wrapper {
+    display: inline-block;
     width: 296px;
     background: transparent;
     border-radius: 4px;
     padding: 4px;
     margin: 40px auto;
-}
-
-.card_best-value:hover{
-    border: 1px solid #ee8129;
-    transition: all 0.1s ease-in-out;
-}
-.card__wrapper_best-value:hover {
-    background: #ee8129;
-    box-shadow: 0 1px 30px -10px #173b4d;
-    transition: all 0.1s ease-in-out;
 }
 
 .card__header {
@@ -51,11 +36,6 @@ input, textarea {
 .card__content {
     padding: 0 15px;
 }
-
-.card__header_best-value {
-    background: #ee8129;
-}
-
 
 .card__item-header {
     font-size: 24px;
@@ -139,4 +119,76 @@ input, textarea {
 
 .card__button_orange {
     background: #ee8129;
+}
+
+.card__button_blue {
+    background: #3371a6;
+}
+
+/*
+=======================================
+Standart
+=======================================
+*/
+.card_standart:hover{
+    border: 1px solid #37c2d3;
+    transition: all 0.1s ease-in-out;
+}
+
+.card__wrapper_standart:hover {
+    background: #37c2d3;
+    box-shadow: 0 1px 30px -10px #173b4d;
+    transition: all 0.1s ease-in-out;
+}
+
+.card__header_standart {
+    background: #37c2d3;
+}
+/*
+=======================================
+Best Value
+=======================================
+*/
+.card_best-value:hover{
+    border: 1px solid #ee8129;
+    transition: all 0.1s ease-in-out;
+}
+
+.card__wrapper_best-value:hover {
+    background: #ee8129;
+    box-shadow: 0 1px 30px -10px #173b4d;
+    transition: all 0.1s ease-in-out;
+}
+
+.card__wrapper_best-value {
+    margin-left: -8px;
+}
+
+.card__header_best-value {
+    background: #ee8129;
+}
+
+/*
+=======================================
+Ultimate
+=======================================
+*/
+.card_ultimate:hover {
+    border: 1px solid #1cb79a;
+    transition: all 0.1s ease-in-out;
+}
+
+.card__wrapper_ultimate:hover {
+    z-index: 100;
+    background: #1cb79a;
+    box-shadow: 0 1px 30px -10px #173b4d;
+    transition: all 0.1s ease-in-out;
+}
+
+.card__wrapper_ultimate {
+    margin-left: -8px;
+}
+
+.card__header_ultimate {
+    background: #1cb79a;
 }
