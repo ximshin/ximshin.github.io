@@ -1,0 +1,116 @@
+.image-controls {
+    position: absolute;
+    padding: 38px 77px;
+    width: 140px;
+    height: 62px;
+    /*top: 0;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*margin: auto;*/
+    /*display: none;*/
+    /*display: none;*/
+    opacity: 0;
+    transition: background .5s ease-in-out, opacity .2s ease-out;
+}
+
+.i-arrow {
+    width: 4px;
+    height: 8px;
+    background: #4d4d4d;
+    position: relative;
+    top: 8px;
+    left: 11px;
+}
+
+.i-arrow:after {
+    content: '';
+    border: 5px solid transparent;
+    border-top: 5px solid #4d4d4d;
+    position: absolute;
+    top: 6px;
+    left: -3px;
+}
+
+.i-plus {
+    width: 20px;
+    height: 4px;
+    background: #4d4d4d;
+    position: relative;
+    top: 21px;
+    left: 13px;
+}
+
+.i-plus:before {
+    content: '';
+    width: 4px;
+    height: 20px;
+    background: #4d4d4d;
+    position: absolute;
+    top: -8px;
+    left: 8px;
+}
+
+.i-fullscreen {
+    width: 12px;
+    height: 10px;
+    border: 1px solid #4d4d4d;
+    position: relative;
+    top: 8px;
+    left: 7px;
+    box-sizing: border-box;
+}
+
+.i-fullscreen:before {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    border: 2px solid transparent;
+    border-top: 2px solid #4d4d4d;
+    border-right: 2px solid #4d4d4d;
+
+}
+
+.round-btn {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    position: relative;
+    border: 5px solid rgba(0, 0, 0, .2);
+    background: transparent;
+    vertical-align: middle;
+    transition: all .15s ease-in-out;
+}
+
+.round-btn:hover {
+    border-color: rgba(0, 0, 0, .4);
+}
+
+.round-btn:before {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    width: 26px;
+    height: 26px;
+    background: #f2f2f2 linear-gradient(to bottom, #fff, #dadada);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .5);
+}
+
+.round-btn:hover:before {
+    box-shadow: none;
+}
+
+.round-btn_big {
+    width: 46px;
+    height: 46px;
+    border: 8px solid rgba(0, 0, 0, .2);
+}
+
+.round-btn_big:before {
+    width: 46px;
+    height: 46px;
+}

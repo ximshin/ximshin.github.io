@@ -11,9 +11,10 @@ input, textarea {
     text-align: center;
 }
 
-.cards__header {
+.block-header {
     font:700 30px/1.4 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
+    text-align: center;
     color: #41525c;
     margin-bottom: 56px;
 }

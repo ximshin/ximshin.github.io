@@ -1,0 +1,114 @@
+
+body {
+    font: 400 14px/1.4 sans-serif;
+    background: #e5e5e5;
+}
+.arrow {
+    margin: 40px auto;
+    min-width: 600px;
+    max-width: 800px;
+}
+.arrow__form, .arrow__form-flat {
+    margin: 0 40px;
+    position: relative;
+    height: 54px;
+    background: #fc6;
+    padding-right: 20px;
+    position: relative;
+}
+
+.gradient {
+    background: #fc6 linear-gradient(0deg, #eaba4c, #feca53);
+}
+
+.triangle {
+    width:19px;
+    height:19px;
+    position: absolute;
+    top: 17px;
+    right: -10px;
+    background: #fc6 linear-gradient(-45deg, #eaba4c, #feca53);
+    transform: scaleY(2) rotate(45deg);
+}
+
+.arrow__form-flat:after {
+    position: absolute;
+    top: 0;
+    right: -39px;
+    content: '';
+    border: 27px solid transparent;
+    border-left: 12px solid #fc6;
+}
+
+.arrow__search-wrapper {
+    display: inline-table;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.arrow__search-fld {
+    display: table-cell;
+    width: 100%;
+    padding: 5px 4px 2px;
+
+}
+
+.search-fld:focus {
+    outline: 1px solid #3689b3;
+}
+
+.search-fld {
+    box-sizing: border-box;
+    width: 100%;
+    height: 26px;
+    border: none;
+    box-shadow: inset 1px 1px 1px  rgba(166, 133, 66, .6);
+    border-radius: 3px;
+    padding: 0 8px;
+}
+
+.arrow__search-btn {
+    display: table-cell;
+}
+.btn {
+    border: 1px solid #999;
+    height: 26px;
+    border-radius: 3px;
+    background: #fff;
+    padding: 0 14px;
+    font-size: 13px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+.arrow__checkbox {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.arrow__checkbox:before {
+    content: " ";
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0 4px;
+    background: #fff;
+    vertical-align: middle;
+    border: 1px solid #a68542;
+    border-radius: 2px;
+    width: 14px;
+    height: 14px;
+}
+
+input[type=checkbox]:checked + .arrow__checkbox:before {
+    content: "\02714";
+    font-size: 10px;
+    color: #666;
+    text-align: center;
+
+}

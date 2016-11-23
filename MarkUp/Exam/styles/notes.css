@@ -1,0 +1,66 @@
+.notes__col {
+    display: inline-block;
+    width: 300px;
+    box-sizing: border-box;
+    margin-right: 13px;
+    vertical-align: top;
+}
+.notes__col:last-child {
+    margin-right: 0;
+}
+
+.notes__col-header {
+    background: #f0f0f0 url(../images/triangle.png) repeat-x bottom left;
+    padding-bottom: 10px;
+    border: 1px solid #f0f0f0;
+    border-bottom: transparent;
+}
+
+.center-col {
+    background: url(../images/triangle2.png) repeat-x bottom left, url(../images/noise.gif) repeat;
+}
+
+.right-col {
+    background: #fff url(../images/triangle3.png) repeat-x bottom left;
+}
+
+.img-wrapper {
+    width: 298px;
+    height: 142px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-wrapper:hover .image-controls {
+    opacity: 1;
+    background: rgba(0, 0, 0, .3);
+    transition: background .5s ease-in-out, opacity .2s ease-out;
+}
+
+.col-photo {
+    width: 300px;
+}
+
+.col-header__title {
+    font: 400 14px/1.2 'Oxygen', 'Arial', Helvetica, sans-serif;
+    color: #666;
+    text-shadow: 0 1px 0 #fff;
+    margin: 10px 10px 4px;
+}
+
+.col-header__subtitle {
+    font-size: 11px;
+    text-shadow: 0 1px 0 #fff;
+    margin: 0 10px;
+    color:#999;
+}
+
+.notes__col-content {
+    font: 400 12px/18px 'Oxygen', 'Arial', Helvetica, sans-serif;
+    text-align: justify;
+    color: #666;
+    margin: 0;
+    padding: 12px 10px;
+}

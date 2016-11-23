@@ -1,8 +1,8 @@
 @import "../../reset.css";
 @import "cards.css";
 @import "testimonials.css";
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700&subset=cyrillic';
-
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700&subset=cyrillic";
+@import "https://use.fontawesome.com/0b98b9122b.css";
 .container {
 }
 
@@ -118,4 +118,168 @@
     background: #fff;
     color: #3070a8;
     transition: all .2s ease-in-out .2s;
+}
+
+.features {
+    padding: 68px 0 54px;
+}
+
+.left-col, .center-col, .right-col {
+    display: inline-block;
+    text-align: center;
+    max-width: 300px;
+    min-width: 120px;
+}
+
+.left-col {
+    margin-right: 25px;
+}
+
+.center-col {
+    margin: 0 25px;
+}
+
+.right-col {
+    margin-left: 25px;
+}
+.features-col-tittle {
+    font:100 30px "Open Sans", sans-serif;
+    letter-spacing: .25px;
+    color: #3070a8;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.features-col-text {
+    font: 400 14px/25px "Open Sans";
+    color: #999;
+}
+.features-icon {
+    margin: 12px 0 18px;
+}
+
+.promo {
+    background: #333 url(../img/promo-bg.png) no-repeat;
+    background-size: cover;
+    text-align: left;
+    padding: 75px 0 60px;
+}
+
+.promo-text {
+    max-width: 700px;
+}
+
+.promo h2 {
+    font: 100 26px/48px "Open Sans";
+    letter-spacing: -.25px;
+    color: #ee8129;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.promo p {
+    font: italic 400 19px/30px "Open Sans";
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.promo ul {
+    padding-left: 18px;
+}
+
+.promo li {
+    font: 400 14px/30px "Open Sans";
+    letter-spacing: .2px;
+    color: #999;
+    list-style: disc outside;
+    margin-bottom: 8px;
+}
+
+.promo li:nth-child(2) {
+    color: #3070a8;
+}
+
+.contacts {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+
+.contacts__inner {
+    padding: 40px 0 30px;
+    float: left;
+    width: 50%;
+    background: #fff;
+}
+
+.contacts__map {
+    float: right;
+    width: 50%;
+    background: #ccc;
+    height: 200px;
+}
+
+.contacts__address, .contacts__phones, .contacts__email  {
+    font: 600 14px/30px "Open Sans", sans-serif;
+    color: #666;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.contacts__address:before, .contacts__phones:before, .contacts__email:before {
+    content: "\f041";
+    font-family: FontAwesome;
+    position: absolute;
+    left: -40px;
+    color: #3070a8;
+    font-size: 30px;
+}
+
+.contacts__phones:before {
+    content: "\f10b";
+    font-size: 40px;
+}
+
+.contacts__email:before {
+    content: "\f0e0";
+    font-size: 24px;
+}
+
+.contacts__social {
+    margin-top: 20px;
+}
+
+.i-social {
+    width:48px;
+    height: 48px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer {
+    background: #3070a8;
+    padding: 20px 0 24px;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #fff;
+    text-align: center;
+}
+
+strong {
+    font-weight: 700;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
 }
